@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/id_bt_thanhvien_hodan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#5F5F5F"
+        android:fontFamily="@font/remibold"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Nguyễn Văn A"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+</RelativeLayout>

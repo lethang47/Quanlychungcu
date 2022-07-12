@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/id_trang_chu_quanly"
+            android:title="Trang chủ"/>
+        <item android:id="@+id/id_quan_ly_cu_dan"
+            android:title="Quản lý cư dân"/>
+        <item android:id="@+id/id_quan_ly_dich_vu"
+            android:title="Dịch vụ"/>
+        <item android:id="@+id/id_quan_ly_thong_bao"
+            android:title="Thông báo"/>
+        <item android:id="@+id/id_quan_ly_phan_hoi"
+            android:title="Phản hồi"/>
+        <item android:id="@+id/id_quan_ly_dang_xuat"
+            android:title="Đăng xuất"/>
+    </group>
+</menu>

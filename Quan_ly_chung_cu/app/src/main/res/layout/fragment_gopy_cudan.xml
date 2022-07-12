@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/id_edittext_gopy"
+        android:layout_width="363dp"
+        android:layout_height="225dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/custom_edittext"
+        android:fontFamily="@font/medium"
+        android:gravity="top|left"
+        android:hint="Mời nhập nội dung"
+        android:lines="10"
+        android:maxLines="15"
+        android:minLines="5"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/id_button_gui_gopy"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="474dp"
+        android:background="@drawable/buttoncustom"
+        android:fontFamily="@font/remibold"
+        android:text="Gửi"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="178dp"
+        android:layout_height="264dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-17dp"
+        android:layout_marginEnd="28dp"
+        app:srcCompat="@drawable/icon" />
+
+</RelativeLayout>

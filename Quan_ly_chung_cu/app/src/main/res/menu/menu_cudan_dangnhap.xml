@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/id_trang_chu"
+            android:title="Trang chủ"/>
+        <item android:id="@+id/id_ho_so"
+            android:title="Hồ sơ"/>
+        <item android:id="@+id/id_dich_vu"
+            android:title="Dịch vụ"/>
+        <item android:id="@+id/id_thanh_toan"
+            android:title="Thanh toán"/>
+        <item android:id="@+id/id_gop_y"
+            android:title="Góp ý"/>
+        <item android:id="@+id/id_dang_xuat"
+            android:title="Đăng xuất"/>
+    </group>
+</menu>

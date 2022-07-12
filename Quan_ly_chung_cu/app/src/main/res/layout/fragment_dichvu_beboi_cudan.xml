@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-85dp"
+        android:layout_marginTop="-485dp"
+        android:layout_marginEnd="-22dp"
+        android:layout_marginBottom="55dp"
+        app:srcCompat="@drawable/pool" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="110dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/textview_custom"
+        android:fontFamily="@font/remibold"
+        android:gravity="center"
+        android:text="Mỗi ngày"
+        android:textColor="#FDFDFD"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="123dp"
+        android:background="@drawable/textview_custom"
+        android:fontFamily="@font/remibold"
+        android:gravity="center"
+        android:text="5:30 - 22:00"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="252dp"
+        android:background="#BCBCBC" />
+
+    <Button
+        android:id="@+id/id_button_dk"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/buttoncustom"
+        android:fontFamily="@font/bold"
+        android:text="Đăng ký"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/bold"
+        android:text="Bể bơi"
+        android:textSize="34sp" />
+
+    <RelativeLayout
+        android:id="@+id/textView9"
+        android:layout_width="330dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/view_custom"
+        android:text="">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="86dp"
+            android:background="@drawable/view_custom1"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:text="Giá vé"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="86dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="198dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="130dp"
+            android:background="#BCBCBC" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="80dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="226dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="37dp"
+            android:fontFamily="@font/medium"
+            android:text="1.000.000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="55dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="146dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/medium"
+            android:text="Tháng"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/id_swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <ListView
+            android:id="@+id/id_listview_register"
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:dividerHeight="3dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>
